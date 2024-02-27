@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Student",
+    location: "New Delhi, IN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I graduated after 3 Years of studying. I immediately found a job as a SDE Intern.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Development Engineer Intern",
+    location: "Gurugram, IN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I was responsible for contributing to coding, testing, and collaborative software development efforts within an agile team environment.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020",
+  },
+  {
+    title: "Software Development Engineer",
+    location: "Gurugram, IN",
+    description:
+      "I worked as a Software Development Engineer for 2 years in same job. I also upskilled and got promoted to Software Development Engineer II.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2022",
+  },
+  {
+    title: "Software Development Engineer II",
+    location: "Gurugram, IN",
+    description:
+      "I am now working as Software Development Engineer II. With focus on system design, monitoring, and analysis of ongoing projects. Takes a hands-on approach to experimentation and problem-solving, proactively identifying and resolving issues to ensure robust system functionality. Demonstrates a high level of ownership and accountability, contributing to the entire software development lifecycle. Collaborates with cross-functional teams to drive innovation, optimize performance, and deliver high-quality solutions. Applies a deep understanding of software architecture and development principles to contribute to the growth and success of the organization.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
 ] as const;
 
@@ -86,22 +94,15 @@ export const projectsData = [
 
 export const skillsData = [
   "HTML",
-  "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Php",
+  "Java Spring Boot",
+  "Wordpress",
+  "Mysql",
+  "Webpage Peformance"
+
 ] as const;
