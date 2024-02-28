@@ -39,8 +39,8 @@ export const experiencesData = [
     location: "New Delhi, IN",
     description:
       "I graduated after 3 Years of studying. I immediately found a job as a SDE Intern.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2020",
+    icon: React.createElement(LuGraduationCap),
+    date: "2017 - 2020",
   },
   {
     title: "Software Development Engineer Intern",
@@ -70,38 +70,55 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "WordPress and ElasticSearch Integration",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Led WordPress customization for editorial needs and upgraded catalog support from MySQL to ElasticSearch, enhancing platform robustness.",
+    tags: ["PHP", "WordPress", "JS", "ElasticSearch"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Webpage Performance Enhancement for SEO",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Optimized core web vitals, elevating Google ranking through performance tuning for optimal user experience in alignment with ranking algorithms.",
+    tags: ["JS","PHP","Wordpress"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Experimentation Framework Implementation",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Initiated a self-handled experimentation framework, facilitating server-side and client-side experiments, and enabled data-driven decision-making through performance assessment and insightful trend identification.",
+    tags: ["Mysql", "JS", "Wordpress", "PHP"],
     imageUrl: wordanalyticsImg,
+  },{
+    title: "Logging Infrastructure Enhancement",
+    description:
+      "Enhanced logging infrastructure, meticulously tracking user activities on webpages and minimizing the gap between logged events and Google Analytics for accurate data representation.",
+    tags: ["Rest Api", "JS"],
+    imageUrl: corpcommentImg,
+  },{
+    title: "Tech Stack Migration to Next.js",
+    description:
+      "Efficiently migrated PHP WordPress pages to Next.js, enhancing performance and user experience, with seamless integration of existing components and adherence to modern web development standards.",
+    tags: ["Next.js", "JavaScript"],
+    imageUrl: rmtdevImg,
   },
 ] as const;
 
 export const skillsData = [
+  "Docker",
   "HTML",
   "JavaScript",
+  "jQuery",
   "React",
+  "Redux",
   "Next.js",
   "Node.js",
   "Git",
-  "Php",
+  "PHP",
   "Java Spring Boot",
   "Wordpress",
+  "Go Lang",
+  "Elastic Search",
   "Mysql",
   "Webpage Peformance"
 

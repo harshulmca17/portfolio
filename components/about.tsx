@@ -19,21 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        After graduating with a masters degree in{" "}
+        <span className="font-medium">Computer Science</span>, I decided to pursue my
+        passion for programming. I got selected as <span className="font-medium">SDE Intern</span> in <span className="font-medium">Editorialist</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          PHP, Wordpress, React, Node.js, and Mysql
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with Next.js and Java Spring Boot. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">full-time position</span> as a <span className="font-medium">Senior Software
+        Developer</span>.
       </p>
 
       <p>
